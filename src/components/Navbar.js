@@ -44,6 +44,7 @@ export default function Navbar(props) {
                     " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   }
                   target="_blank"
+                  rel="noreferrer"
                   href="https://www.linkedin.com/in/abatlles/"
                 >
                   <i
@@ -54,7 +55,7 @@ export default function Navbar(props) {
                       " fab fa-linkedin text-lg leading-lg "
                     }
                   />
-                  <span className="lg:hidden inline-block ml-2">Tweet</span>
+                  <span className="lg:hidden inline-block ml-2"></span>
                 </a>
               </li>
 
@@ -67,6 +68,7 @@ export default function Navbar(props) {
                     " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   }
                   target="_blank"
+                  rel="noreferrer"
                   href="https://twitter.com/elbatlles"
                 >
                   <i
@@ -77,7 +79,7 @@ export default function Navbar(props) {
                       " fab fa-twitter text-lg leading-lg "
                     }
                   />
-                  <span className="lg:hidden inline-block ml-2">Tweet</span>
+                  <span className="lg:hidden inline-block ml-2"></span>
                 </a>
               </li>
 
@@ -91,6 +93,7 @@ export default function Navbar(props) {
                   }
                   href="https://github.com/elbatlles"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i
                     className={
@@ -100,7 +103,7 @@ export default function Navbar(props) {
                       " fab fa-github text-lg leading-lg "
                     }
                   />
-                  <span className="lg:hidden inline-block ml-2">Star</span>
+                  <span className="lg:hidden inline-block ml-2"></span>
                 </a>
               </li>
 

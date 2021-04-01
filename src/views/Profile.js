@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer.js";
+//import Footer from "../components/Footer.js";
 import imageBackground from "../assets/img/background.jpg";
 import { Popup } from "../components/Popup";
 
@@ -62,8 +62,8 @@ export default function Profile() {
                       />
                     </div>
                   </div>
-                  <div className="w-full lg:w-4/12 px-4 lg:order-3 lg:text-right lg:self-center">
-                    <div className="py-6 px-3 mt-32 sm:mt-0">
+                  <div className="w-full lg:w-4/12 px-4 lg:order-3  text-center lg:self-center">
+                    <div className="py-6 px-3 mt-32 sm:mt-0  ">
                       <button
                         className="bg-yellow-500 active:bg-yellow-600 uppercase text-white font-bold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1"
                         type="button"
@@ -102,7 +102,7 @@ export default function Profile() {
                         como diseñador y maquetador web, actualmente trabajo
                         como <b>Frontend Developer</b>.
                         <br />
-                        <br /> A día de hoy vivo en las
+                        <br /> A día de hoy vivo en
                         <b> Barcelona</b> y en un principio no me voy a mover de
                         mi ubicación.
                         <br /> <br />
@@ -114,7 +114,7 @@ export default function Profile() {
                         mayor valor diferencial y lo que más disfruto de mi
                         trabajo.
                         <br /> Ahora, mis esfuerzos están centrados en el
-                        <b> aprendizaje de Reactjs </b>, pues veo mi futuro
+                        <b> aprendizaje de Reactjs</b>, pues veo mi futuro
                         profesional enfocado hacia el desarrollo de nuevas
                         tecnologías relacionadas con JavaScript. Tambie estoy{" "}
                         <b>aprendiendo todo lo relacionado con la Blockhain</b>{" "}
@@ -125,6 +125,7 @@ export default function Profile() {
                         <a
                           className="underline focus:underline"
                           target="_blank"
+                          rel="noreferrer"
                           href="https://github.com/elbatlles"
                         >
                           Github
