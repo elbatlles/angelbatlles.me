@@ -14,6 +14,8 @@ module.exports = {
     "smoke-lightest": "rgba(0, 0, 0, 0.1)",
   },
   variants: {
+    display: ["group-hover", "responsive"],
+    position: ["hover", "focus"],
     extend: {},
   },
   plugins: [require("@tailwindcss/forms")],
