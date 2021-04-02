@@ -3,16 +3,21 @@ import Navbar from "../components/Navbar";
 //import Footer from "../components/Footer.js";
 import imageBackground from "../assets/img/background.jpg";
 import { Popup } from "../components/Popup";
+import SEO from "../components/seo";
 
-export default function Profile() {
+export const Profile = (props) => {
   const [popup, setpopup] = useState(false);
   const handleClick = () => {
-    // const popupAux = Object.assign(popup, popup);
-    //console.log(popupAux);
     setpopup(!popup);
   };
   return (
     <>
+      <SEO
+        description="[Angel Batlles] 🥷🏻 | Mi recorrido"
+        lang="es"
+        meta="[Angel Batlles] 🥷🏻 | Mi recorrido"
+        title="[Angel Batlles] 🥷🏻 | Mi recorrido"
+      />
       <Navbar transparent />
       <main className="profile-page">
         <section className="relative block" style={{ height: "500px" }}>
@@ -143,4 +148,4 @@ export default function Profile() {
       </main>
     </>
   );
-}
+};

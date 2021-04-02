@@ -1,7 +1,7 @@
 {
   "name": "angelbatlles.me",
   "version": "0.1.0",
-  "homepage":"https://elbatlles.github.io/",
+  "homepage": "https://angelbatlles.me/",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.1.1",
@@ -18,7 +18,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
@@ -49,6 +49,7 @@
     "emailjs-com": "^2.6.4",
     "gh-pages": "^3.1.0",
     "postcss": "^7.0.35",
+    "react-helmet": "^6.1.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.4"
   }
 }

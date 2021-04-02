@@ -8,12 +8,51 @@ export default function Navbar(props) {
         className={
           (props.transparent
             ? "top-0 absolute z-50 w-full"
-            : "relative shadow-lg bg-white shadow-lg") +
+            : "relative bg-white shadow-lg") +
           " flex flex-wrap items-center justify-between px-2 py-3 "
         }
       >
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+            {/*  <div class="sm:flex justify-around">
+              <a
+                className={
+                  (props.transparent ? "text-white" : "text-gray-800") +
+                  " invisible lg:visible text-sm font-bold leading-relaxed  mr-4 py-2 whitespace-nowrap uppercase"
+                }
+                href="#"
+              >
+                Mi experiencia en…
+              </a>
+              <ul class="text-gray-400 sm:self-center text-xl border-t sm:border-none">
+                <li class="sm:inline-block">
+                  <a href="#" class="p-3 hover:text-white">
+                    Menu 1
+                  </a>
+                </li>
+                <li class="sm:inline-block">
+                  <a href="#" class="p-3 hover:text-white">
+                    Menu 2
+                  </a>
+                </li>
+                <li class="sm:inline-block">
+                  <a href="#" class="p-3 hover:text-white">
+                    Menu 3
+                  </a>
+                </li>
+                <li class="sm:inline-block">
+                  <a href="#" class="p-3 hover:text-white">
+                    Menu 4
+                  </a>
+                </li>
+                <li class="sm:inline-block">
+                  <a href="#" class="p-3 hover:text-white">
+                    Menu 5
+                  </a>
+                </li>
+              </ul>
+              </div> */}
+
             <button
               className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
               type="button"
