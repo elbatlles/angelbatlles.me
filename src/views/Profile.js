@@ -82,7 +82,7 @@ export const Profile = (props) => {
                   <div className="w-full lg:w-4/12 px-4 lg:order-1"></div>
                 </div>
                 <div className="text-center mt-12">
-                  <h3 className="text-4xl font-semibold leading-normal mb-2 text-gray-800 mb-2">
+                  <h3 className="text-4xl font-semibold leading-normal  text-gray-800 mb-2">
                     Angel Batlles
                   </h3>
                   <div className="text-sm leading-normal mt-0 mb-2 text-gray-500 font-bold uppercase">
@@ -107,10 +107,7 @@ export const Profile = (props) => {
                         como diseñador y maquetador web, actualmente trabajo
                         como <b>Frontend Developer</b>.
                         <br />
-                        <br /> A día de hoy vivo en
-                        <b> Barcelona</b> y en un principio no me voy a mover de
-                        mi ubicación.
-                        <br /> <br />
+                        <br />
                         Me considero una persona curiosa, activa y autodidacta.
                         No hay nada que me apasione más que devorar información,
                         experimentar y testear las novedades del sector. Cuando
@@ -118,15 +115,23 @@ export const Profile = (props) => {
                         realmente lo controlo al 100%. Ese considero que es mi
                         mayor valor diferencial y lo que más disfruto de mi
                         trabajo.
-                        <br /> Ahora, mis esfuerzos están centrados en el
+                        <br /> <br /> Ahora, mis esfuerzos están centrados en el
                         <b> aprendizaje de Reactjs</b>, pues veo mi futuro
                         profesional enfocado hacia el desarrollo de nuevas
-                        tecnologías relacionadas con JavaScript. Tambie estoy{" "}
-                        <b>aprendiendo todo lo relacionado con la Blockhain</b>{" "}
+                        tecnologías relacionadas con JavaScript/Typescript.
+                        También estoy{" "}
+                        <b>
+                          aprendiendo todo lo relacionado con la Blockchain{" "}
+                        </b>
                         ya que me parece un mundo super interesante.
                         <br />
-                        <br /> Tambien iré añadiendo algun que otro proyecto en
-                        mi{" "}
+                        <br /> Me gusta el deporte en general, pero lo que me
+                        fascina es el <b>Crossfit</b>, para mi es un desafió
+                        constante, tanto mental como físico que puedo extrapolar
+                        a mi día a día.
+                        <br />
+                        <br />
+                        Iré añadiendo algun que otro proyecto en mi{" "}
                         <a
                           className="underline focus:underline"
                           target="_blank"
