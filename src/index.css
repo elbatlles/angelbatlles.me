@@ -3,14 +3,18 @@
 @tailwind utilities;
 @layer base {
   h1 {
-    @apply text-4xl;
+    @apply text-4xl font-bold;
   }
   h2 {
-    @apply text-xl;
+    @apply text-xl font-bold;
   }
   h3 {
-    @apply text-lg;
+    @apply text-lg font-bold;
+  }
+  p {
+    @apply mb-4 text-lg leading-relaxed text-gray-800;
   }
   a {
+    @apply underline focus:underline;
   }
 }

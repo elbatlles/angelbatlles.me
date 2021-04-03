@@ -1,5 +1,11 @@
 export const menuText = [
   {
+    name: " ",
+    ico: "home",
+    fa: "s",
+    url: "/",
+  },
+  {
     name: "Programación",
     ico: "code",
     fa: "s",

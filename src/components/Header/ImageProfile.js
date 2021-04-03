@@ -44,7 +44,7 @@ export const ImageProfile = (props) => {
         </div>
         <div className="mb-2 text-gray-700 mt-10">
           <i className="fas fa-briefcase mr-2 text-lg text-gray-500"></i>
-          Frontend Developer
+          Frontend Developer / Holder
         </div>
       </div>
       {popup === true && <Popup handleClick={handleClick} />}

@@ -32,10 +32,10 @@ export default function Navbar(props) {
                   return (
                     <li
                       key={text.name + text.url}
-                      className="p-5 my- sm:inline-block"
+                      className="p-5 my- sm:inline-block  no-underline"
                     >
-                      <a href={text.url} className=" hover:text-white">
-                        {text.name}{" "}
+                      <a href={text.url} className="hover:text-white ">
+                        {text.name}
                         <i
                           className={
                             (props.transparent
@@ -83,7 +83,7 @@ export default function Navbar(props) {
                         (props.transparent
                           ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
                           : "text-gray-800 hover:text-gray-600") +
-                        " px-3 items-center  py-4 lg:py-2 flex  text-xs uppercase font-bold"
+                        " no-underline px-3 items-center  py-4 lg:py-2 flex  text-xs uppercase font-bold"
                       }
                       rel="noreferrer"
                       href={text.url}
