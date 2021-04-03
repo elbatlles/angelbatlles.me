@@ -62,7 +62,7 @@ export const Popup = (props) => {
                       <input
                         onChange={handleInputChange}
                         type="text"
-                        className="w-full rounded  "
+                        className="w-full rounded   "
                         placeholder="Nombre"
                         name="from_name"
                         value={form.from_name}
@@ -86,10 +86,11 @@ export const Popup = (props) => {
                 <div className="grid grid-cols-1 grid-flow-col ">
                   <div className="relative p-6 flex-auto">
                     <textarea
-                      contenteditable="true"
+                      contentEditable="true"
                       name="message"
                       onChange={handleInputChange}
                       className="w-full relative p-6 flex-auto"
+                      value={form.message}
                     >
                       {form.message}
                     </textarea>

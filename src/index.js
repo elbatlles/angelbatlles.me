@@ -2,12 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import { Profile } from "../src/views/Profile";
+
 import reportWebVitals from "./reportWebVitals";
+import { App } from "./routes";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Profile />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );

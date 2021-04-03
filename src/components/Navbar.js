@@ -1,4 +1,5 @@
 import React from "react";
+import { menuText } from "../utils";
 
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -14,69 +15,43 @@ export default function Navbar(props) {
       >
         <div className="container px-4 mx-auto flex flex-wrap justify-between">
           <div className=" w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-            <div class="hidden group lg:inline-block   ">
-              <button class="hover:shadow-md bg-gray-300 text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center">
+            <div className="hidden group lg:inline-block   ">
+              <button className="hover:shadow-md bg-gray-300 text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center">
                 Mi experiencia en…
               </button>
               <ul
-                class="  relative rounded my-1
+                className="  relative rounded my-1
                transition duration-150 ease-in-out origin-top min-w-32
-              hidden   bg-yellow-600 pt-1 group-hover:block
+              hidden   bg-yellow-600 pt-1 group-hover:hidden
              
               motion-safe:hover:scale-110
               
               "
               >
-                <li class="p-5 my- sm:inline-block">
-                  <a href="#" class=" hover:text-white">
-                    Programación{" "}
-                    <i
-                      className={
-                        (props.transparent
-                          ? "lg:text-gray-300 text-gray-500"
-                          : "text-gray-500") +
-                        " fas fa-code text-lg leading-lg "
-                      }
-                    />
-                  </a>
-                </li>
-                <li class="p-5 sm:inline-block">
-                  <a href="#" class="  hover:text-white">
-                    Cryptos{" "}
-                    <i
-                      className={
-                        (props.transparent
-                          ? "lg:text-gray-300 text-gray-500"
-                          : "text-gray-500") + " fab fa-btc text-lg leading-lg "
-                      }
-                    />
-                  </a>
-                </li>
-                <li class="p-5  sm:inline-block">
-                  <a href="#" class=" p-5    hover:text-white">
-                    Marketing{" "}
-                    <i
-                      className={
-                        (props.transparent
-                          ? "lg:text-gray-300 text-gray-500"
-                          : "text-gray-500") + " fas fa-ad text-lg leading-lg "
-                      }
-                    />
-                  </a>
-                </li>
-                <li class="p-5  sm:inline-block">
-                  <a href="#" class=" hover:text-white">
-                    Deporte{" "}
-                    <i
-                      className={
-                        (props.transparent
-                          ? "lg:text-gray-300 text-gray-500"
-                          : "text-gray-500") +
-                        " fas fa-dumbbell text-lg leading-lg "
-                      }
-                    />
-                  </a>
-                </li>
+                {menuText.map((text) => {
+                  return (
+                    <li
+                      key={text.name + text.url}
+                      className="p-5 my- sm:inline-block"
+                    >
+                      <a href={text.url} className=" hover:text-white">
+                        {text.name}{" "}
+                        <i
+                          className={
+                            (props.transparent
+                              ? "lg:text-gray-300 text-gray-500"
+                              : "text-gray-500") +
+                            " fa" +
+                            text.fa +
+                            " fa-" +
+                            text.ico +
+                            " text-lg leading-lg "
+                          }
+                        />
+                      </a>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
 
@@ -97,6 +72,47 @@ export default function Navbar(props) {
             className={
               "lg:flex flex-grow  bg-white lg:bg-transparent lg:shadow-none" +
               (navbarOpen ? " block rounded shadow-lg" : " hidden")
+            }
+          >
+            <ul className="relative flex flex-col lg:flex-row list-none lg:ml-auto">
+              {menuText.map((text) => {
+                return (
+                  <li key={text.name + text.url} className="flex text-center">
+                    <a
+                      className={
+                        (props.transparent
+                          ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
+                          : "text-gray-800 hover:text-gray-600") +
+                        " px-3 items-center  py-4 lg:py-2 flex  text-xs uppercase font-bold"
+                      }
+                      rel="noreferrer"
+                      href={text.url}
+                    >
+                      <i
+                        className={
+                          (props.transparent
+                            ? "lg:text-gray-300 text-gray-500"
+                            : "text-gray-500") +
+                          " fa" +
+                          text.fa +
+                          " fa-" +
+                          text.ico +
+                          " text-lg leading-lg mr-1"
+                        }
+                      />{" "}
+                      {text.name}
+                    </a>
+                  </li>
+                );
+              })}
+
+              <li className="flex "></li>
+            </ul>
+          </div>
+          {/*RRSS */}
+          <div
+            className={
+              "lg:flex flex-grow  bg-white lg:bg-transparent lg:shadow-none hidden"
             }
           >
             <ul className="relative flex flex-col lg:flex-row list-none lg:ml-auto">
