@@ -76,7 +76,7 @@ export const Popup = (props) => {
                         type="email"
                         name="email"
                         onChange={handleInputChange}
-                        className="w-full rounded  "
+                        className="w-full rounded border-black "
                         placeholder="E-mail"
                         value={form.email}
                       />

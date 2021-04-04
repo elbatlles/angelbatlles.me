@@ -1,21 +1,22 @@
 import React from "react";
 import Navbar from "../Navbar";
-import { useLocation } from "react-router-dom";
-import SEO from "../seo";
+import { useLocation } from "@reach/router";
+import SEO from "../SEO";
 import { menuText } from "../../utils";
-
+import "../../index.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 export const Header = (props) => {
+  //  const location = useLocation();
   const location = useLocation();
-  console.log(location.pathname);
+
   const seoConfig = menuText.find((config) => {
-    return config.url === location.pathname.replace("/", "");
+    return config.url === location.pathname;
   });
 
   return (
     <>
       <SEO
         description={seoConfig ? seoConfig.description : "Pagina no encontrada"}
-        lang="es"
         meta={seoConfig ? seoConfig.meta : "Pagina no encontrada"}
         title={seoConfig ? seoConfig.title : "Pagina no encontrada"}
       />
@@ -23,5 +24,11 @@ export const Header = (props) => {
     </>
   );
 };
-
+/*
+   <SEO
+        description={seoConfig ? seoConfig.description : "Pagina no encontrada"}
+        meta={seoConfig ? seoConfig.meta : "Pagina no encontrada"}
+        title={seoConfig ? seoConfig.title : "Pagina no encontrada"}
+      />
+*/
 export default Header;

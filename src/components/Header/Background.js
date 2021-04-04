@@ -1,6 +1,6 @@
 import React from "react";
 
-import imageBackground from "../../assets/img/background.jpg";
+import imageBackground from "../../images/background.jpg";
 export const Background = (props) => {
   return (
     <section className="relative block" style={{ height: "500px" }}>

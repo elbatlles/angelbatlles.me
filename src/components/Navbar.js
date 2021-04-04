@@ -116,13 +116,13 @@ export default function Navbar(props) {
             }
           >
             <ul className="relative flex flex-col lg:flex-row list-none lg:ml-auto">
-              <li className="flex">
+              <li className="flex no-underline ">
                 <a
                   className={
                     (props.transparent
                       ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
                       : "text-gray-800 hover:text-gray-600") +
-                    " px-3 py-4 lg:py-2 flex  text-xs uppercase font-bold"
+                    "  no-underline px-3 py-4 lg:py-2 flex  text-xs uppercase font-bold"
                   }
                   target="_blank"
                   rel="noreferrer"
@@ -146,7 +146,7 @@ export default function Navbar(props) {
                     (props.transparent
                       ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
                       : "text-gray-800 hover:text-gray-600") +
-                    " px-3 py-4 lg:py-2 flextext-xs uppercase font-bold"
+                    "  no-underline px-3 py-4 lg:py-2 flextext-xs uppercase font-bold"
                   }
                   target="_blank"
                   rel="noreferrer"
@@ -170,7 +170,7 @@ export default function Navbar(props) {
                     (props.transparent
                       ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
                       : "text-gray-800 hover:text-gray-600") +
-                    " px-3 py-4 lg:py-2 flex  text-xs uppercase font-bold"
+                    " no-underline  px-3 py-4 lg:py-2 flex  text-xs uppercase font-bold"
                   }
                   href="https://github.com/elbatlles"
                   target="_blank"
