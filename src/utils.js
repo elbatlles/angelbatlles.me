@@ -4,9 +4,11 @@ export const menuText = [
     ico: "home",
     fa: "s",
     url: "/",
-    description: "[Angel Batlles] ",
-    meta: "[Angel Batlles] ",
-    title: "[Angel Batlles] 🥷🏻",
+    description:
+      " Bienvenidos a mi web personal, donde encontraras un poco de mi, curiosea lo que veas y preguntarme",
+    meta:
+      "  Bienvenidos a mi web personal, donde encontraras un poco de mi, curiosea lo que veas y preguntarme ",
+    title: "[Angel Batlles] 🥷🏻 | Mi recorrido por el mundo",
   },
   {
     name: "Programación",
@@ -86,3 +88,7 @@ export const configWeb = {
     },
   ],
 };
+
+export function replaceAll(str, find, replace) {
+  return str.replace(new RegExp(find, "g"), replace);
+}

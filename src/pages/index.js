@@ -32,7 +32,7 @@ const IndexPage = () => {
                         Me considero una persona curiosa, activa y autodidacta.
                         No hay nada que me apasione más que devorar información,
                         experimentar y testear las novedades del sector. Cuando
-                        algo me llama la atención, me empapo en ello hasta que
+                        algo me llama la atención, me absorbo en ello hasta que
                         realmente lo controlo al 100%. Ese considero que es mi
                         mayor valor diferencial y lo que más disfruto de mi
                         trabajo.
@@ -46,10 +46,10 @@ const IndexPage = () => {
                         </b>
                         ya que me parece un mundo super interesante.
                         <br />
-                        <br /> Me gusta el deporte en general, pero lo que me
-                        fascina es el <b>Crossfit</b>, para mi es un desafió
-                        constante, tanto mental como físico que puedo extrapolar
-                        en mi día a día.
+                        <br /> Mi otra pasión es el deporte en general, pero lo
+                        que me fascina es el <b>Crossfit</b>, para mi es un
+                        desafió constante, tanto mental como físico que puedo
+                        extrapolar en mi día a día.
                         <br />
                         <br />
                         Iré añadiendo algun que otro proyecto en mi{" "}

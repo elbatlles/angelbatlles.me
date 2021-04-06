@@ -2,16 +2,17 @@ import React from "react";
 import Navbar from "../Navbar";
 import { useLocation } from "@reach/router";
 import SEO from "../SEO";
-import { menuText } from "../../utils";
+import { menuText, replaceAll } from "../../utils";
 import "../../index.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+
 export const Header = (props) => {
   //  const location = useLocation();
   const location = useLocation();
 
   const seoConfig = menuText.find((config) => {
     return (
-      config.url.replaceAll("/", "") === location.pathname.replaceAll("/", "")
+      replaceAll(config.url, "/", "") === replaceAll(location.pathname, "/", "")
     );
   });
 
@@ -21,7 +22,7 @@ export const Header = (props) => {
         description={seoConfig ? seoConfig.description : "Pagina no encontrada"}
         meta={seoConfig ? seoConfig.meta : "Pagina no encontrada"}
         title={seoConfig ? seoConfig.title : "Pagina no encontrada"}
-        titleTemplate={seoConfig.title}
+        titleTemplate={seoConfig ? seoConfig.title : "Pagina no encontrada"}
       />
       <Navbar transparent />
     </>
