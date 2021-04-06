@@ -25,6 +25,8 @@ const CryptoPage = () => {
                 <div className="mt-10 py-10 border-t border-gray-300 ">
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
+                      <h1>Criptmonedas </h1>
+                      <br />
                       <h3>Porque invierto en cripto</h3>
                       <br />
                       <p>

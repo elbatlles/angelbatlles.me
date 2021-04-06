@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "[Angel Batlles] 🥷🏻",
-    titleTemplate: "%s · Mi recorrido",
+    titleTemplate: "%s",
     description:
       "Me llamo Angel Batlles y en esta pagina web intentare hablar sobre todo eso que aprendo y me parece interesante ",
     url: "https://angelbatlles.me", // No trailing slash allowed!
@@ -21,6 +21,7 @@ module.exports = {
     "gatsby-plugin-postcss",
     "gatsby-plugin-offline",
     "gatsby-plugin-react-helmet",
+    "gatsby-plugin-twitter",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

@@ -14,10 +14,11 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test":"gatsby develop --host angelbatlles.es --port 8443 --https"
+    "test": "gatsby develop --host angelbatlles.es --port 8443 --https"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.15.3",
+    "@tailwindcss/forms": "^0.3.2",
     "gatsby": "^3.2.1",
     "gatsby-plugin-google-analytics": "^3.2.0",
     "gatsby-plugin-manifest": "^3.2.0",
@@ -25,11 +26,11 @@
     "gatsby-plugin-postcss": "^4.2.0",
     "gatsby-plugin-react-helmet": "^4.2.0",
     "gatsby-plugin-sitemap": "^3.2.0",
+    "gatsby-plugin-twitter": "^3.2.0",
     "postcss": "^8.2.9",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0",
-    "@tailwindcss/forms": "^0.3.2"
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
     "tailwindcss": "^2.0.4",

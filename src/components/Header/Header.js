@@ -10,7 +10,9 @@ export const Header = (props) => {
   const location = useLocation();
 
   const seoConfig = menuText.find((config) => {
-    return config.url === location.pathname;
+    return (
+      config.url.replaceAll("/", "") === location.pathname.replaceAll("/", "")
+    );
   });
 
   return (
@@ -19,6 +21,7 @@ export const Header = (props) => {
         description={seoConfig ? seoConfig.description : "Pagina no encontrada"}
         meta={seoConfig ? seoConfig.meta : "Pagina no encontrada"}
         title={seoConfig ? seoConfig.title : "Pagina no encontrada"}
+        titleTemplate={seoConfig.title}
       />
       <Navbar transparent />
     </>
