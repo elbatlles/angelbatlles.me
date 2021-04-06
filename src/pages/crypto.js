@@ -5,6 +5,12 @@ import React from "react";
 import Background from "../components/Header/Background";
 import ImageProfile from "../components/Header/ImageProfile";
 import Layout from "../components/Layout";
+/*Images */
+import inici from "../images/cryptoPages/inici.png";
+import boton from "../images/cryptoPages/recurrent_boto.png";
+import buyBTC from "../images/cryptoPages/comprarBTC.png";
+import priceBTC from "../images/cryptoPages/priceBTC.jpeg";
+import finishbuy from "../images/cryptoPages/finishbuy.jpeg";
 
 const CryptoPage = () => {
   return (
@@ -19,82 +25,144 @@ const CryptoPage = () => {
                 <div className="mt-10 py-10 border-t border-gray-300 ">
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
-                      <p>
-                        Si has llegado aquí lo mas seguro que sea porque tienes
-                        curiosidad sobre el tema de las criptomonedas, que si
-                        realmente tiene tanto riesgo como parece, si puedo
-                        generar dinero y como me puedo meter.
-                        <br /> Primero de todo, si tiene un riesgo, no te lo voy
-                        a negar, la crypto que “menos” riesgo tiene es BTC y ha
-                        partir de ahí el riesgo va en aumento, te dejare mi
-                        portfolio para que veas como calculo el riesgo, aun asi
-                        si esperes paciente y te conviertes en un{" "}
-                        <a
-                          target="_blank"
-                          rel="noreferrer"
-                          href="https://blog.bitnovo.com/que-es-holdear/"
-                        >
-                          Holder. <br />
-                        </a>
-                        <br />
-                        <a className="font-bold" href="/#">
-                          {" "}
-                          Si realmente lo tienes claro vamos al lio!{" "}
-                        </a>
-                      </p>
-                      <h2>¿Como calculo el riesgo?</h2>
+                      <h3>Porque invierto en cripto</h3>
                       <br />
-                      <h3>1. Años de antigüedad del proyecto</h3>
                       <p>
-                        Si has llegado aquí lo mas seguro que sea porque tienes
-                        curiosidad sobre el tema de las criptomonedas, que si
-                        realmente tiene tanto riesgo como parece, si puedo
-                        generar dinero y como me puedo meter. Primero de todo,
-                        si tiene un riesgo, no te lo voy a negar, la crypto que
-                        “menos” riesgo tiene es BTC y ha partir de ahí el riesgo
-                        va en aumento, te dejare mi portfolio para que veas como
-                        calculo el riesgo.
-                      </p>
-                      <h3>2. Años de antigüedad del proyecto</h3>
-                      <p>
-                        Cuando valoramos la opción de comprar una crypto, uno de
-                        los parámetros que a pensar seria el equipo que hay
-                        detras, muchas veces pueda que no conozcamos a nadie del
-                        proyecto, pero en algunos casos podemos ver ciertos
-                        movimientos de trabajadores/CEO’s que crean nuevos
-                        proyectos y eso muchas veces generan confianza, un caso
-                        claro seria Polkadot, ya que el CEO era uno de los CEO’s
-                        de ETH, el segundo proyecto mas importante de este
-                        mundo.
-                      </p>
-                      <h3> 3.Valorar el Market Cap</h3>
-                      <p>
-                        Otro punto a valorar seria el Market cap, el Market cap,
-                        es toda la capitalización que tiene esa crypto, en otras
-                        palabras toda la pasta que hay ahi metida, cuando mas
-                        dinero em principio es mas segura, pero menos
-                        oportunidad.
+                        Invierto en criptomonedas por varias razones, una de
+                        ellas porque considero que ese mundillo es súper
+                        interesante, cada cripto aporta alguna solución que
+                        novedosa e interesante, como podría ser las 2
+                        principales como ETH (Aportan contratos inteligentes al
+                        dinero) o BTC (Será el oro 2.0).
                         <br /> <br />
-                        Mi recomendación es empezar con el Top 10.
+                        Otra porque es un mercado emergente, aun tiene mucho
+                        recorrido y ha mas en 2021 han entrado varias
+                        instituciones y eso aporta una estabilidad que antes no
+                        tenia.
                       </p>
-                      <p>Pero sobretodo... </p>
-                      <h3>¡Informate!</h3>
+                      <h3>Filosofia Holder</h3>
+                      <br />
                       <p>
-                        {" "}
-                        Estate atento a todas las noticias, hay muchas webs, yo
-                        te recomiendo dos,{" "}
+                        Mi manera de invertir es a largo plazo (Holder), mi
+                        experiencia en este mundo es que es extremadamente
+                        volátil y lo mejor que puedes hacer es comprar y esperar
+                        porque si intentas ir de gurú te puede salir muy bien o
+                        extremadamente mal.
+                      </p>
+                      <h3> Porque tengo BTC como mayor activo del porfolio</h3>
+                      <br />
+                      <p>
+                        BTC a diferencia del resto de crypto, genera mas
+                        fiabilidad por varias razones:
+                        <ol>
+                          <li>
+                            1. Tiene un <b>supply limitado</b> (Tiene una
+                            cantidad fija de monedas)
+                          </li>
+                          <li>
+                            2. Cada 4 años hay halving, eso significa que cada 4
+                            años el coste de los mineros para generar BTC es el
+                            doble de difícil, eso genera <b>escasez</b>.
+                          </li>
+                          <li>
+                            3. Empresas pioneras como Telsa, paypal o greyscale
+                            ya tienen/usan BTC, eso aun genera mas fiabilidad.
+                          </li>
+                        </ol>
+                        <br />
+                        Al igual que pasa con el oro, hay escasez por la demanda
+                        que hay y si eso va aumentado el precio subirá.
+                      </p>
+                      <h3>Como invierto en criptos</h3>
+                      <br />
+                      <p>
+                        En mi caso uso{" "}
+                        <a
+                          target="_blank"
+                          rel="noreferrer"
+                          href="https://crypto.com/app/yhheqkmrqn"
+                        >
+                          App de crypto.com
+                        </a>
+                        , os adjunto unos pantallazos de como hacerlo:
+                      </p>
+                      <br />
+                      <div className="grid md:grid-cols-5  grid-cols-2 gap-4">
+                        <div>
+                          {" "}
+                          <img src={inici} alt="Initial" />
+                        </div>
+                        <div>
+                          {" "}
+                          <img alt="boton" src={boton} />
+                        </div>
+                        <div>
+                          {" "}
+                          <img alt="buy" src={buyBTC} />
+                        </div>
+                        <div>
+                          {" "}
+                          <img alt="price" src={priceBTC} />
+                        </div>
+                        <div>
+                          {" "}
+                          <img alt="finish" src={finishbuy} />
+                        </div>
+                      </div>
+                      <br /> <br />
+                      <p>
+                        Ha parte también uso su{" "}
                         <a
                           rel="noreferrer"
                           target="_blank"
-                          href="https://cryptopanic.com/"
+                          href="https://crypto.com/cards"
                         >
-                          Cryptopanic.com
+                          tarjeta
                         </a>{" "}
-                        que es un resumen de todas noticias y twitter.
+                        que me da un % de <b>cashback</b> en mis compras.
+                        <br /> <br />
+                        Para repartir las criptos, tambien uso{" "}
+                        <a
+                          rel="noreferrer"
+                          target="_blank"
+                          href="https://blockfi.com/?ref=e1facce8"
+                        >
+                          Blockfi
+                        </a>{" "}
+                        para repartir las criptos en varios sitios.
                       </p>
-                      <p className="font-bold">
-                        Y Nunca pongas un dinero que no te puedes permitir
-                        perder
+                      <h3>Dividendos </h3>
+                      <br />
+                      <p>
+                        Tanto en Crypto.com como Blockfi dan dividendos por
+                        tener esas cryptos guardadas, asi a poc a poco vas
+                        generado unos beneficios. Hay plataformas que dan mucho
+                        mas, pero desde mi punto de vista hay que ir con un poco
+                        mas de cuidado.
+                        <br /> <br />
+                        Los links de los dividendos son:
+                        <ul>
+                          <li>
+                            <a
+                              rel="noreferrer"
+                              target="_blank"
+                              href="https://crypto.com/earn"
+                            >
+                              {" "}
+                              Crypto.com
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              rel="noreferrer"
+                              target="_blank"
+                              href="https://blockfi.com/crypto-interest-account/"
+                            >
+                              {" "}
+                              BlockFi
+                            </a>
+                          </li>
+                        </ul>
                       </p>
                     </div>
                   </div>
