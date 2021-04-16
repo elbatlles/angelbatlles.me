@@ -25,7 +25,7 @@ const CryptoPage = () => {
                 <div className="mt-10 py-10 border-t border-gray-300 ">
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
-                      <h1>Criptmonedas </h1>
+                      <h1>CriptoMonedas </h1>
                       <br />
                       <h3>Porque invierto en cripto</h3>
                       <br />
@@ -85,8 +85,10 @@ const CryptoPage = () => {
                           href="https://crypto.com/app/yhheqkmrqn"
                         >
                           App de crypto.com
-                        </a>
-                        , os adjunto unos pantallazos de como hacerlo:
+                        </a>{" "}
+                        (Usa el codigo yhheqkmrqn como referido si te ha servido
+                        esta información) , os adjunto unos pantallazos de como
+                        hacerlo:
                       </p>
                       <br />
                       <div className="grid md:grid-cols-5  grid-cols-2 gap-4">

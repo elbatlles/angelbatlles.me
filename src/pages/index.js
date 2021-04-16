@@ -32,10 +32,10 @@ const IndexPage = () => {
                         Me considero una persona curiosa, activa y autodidacta.
                         No hay nada que me apasione más que devorar información,
                         experimentar y testear las novedades del sector. Cuando
-                        algo me llama la atención, me absorbo en ello hasta que
-                        realmente lo controlo al 100%. Ese considero que es mi
-                        mayor valor diferencial y lo que más disfruto de mi
-                        trabajo.
+                        algo me llama la atención absorbo todo lo que puedo
+                        hasta que realmente lo controlo al 100%. Ese considero
+                        que es mi mayor valor diferencial y lo que más disfruto
+                        de mi trabajo.
                         <br /> <br /> Ahora, mis esfuerzos están centrados en el
                         <b> aprendizaje de Reactjs</b>, pues veo mi futuro
                         profesional enfocado hacia el desarrollo de nuevas
